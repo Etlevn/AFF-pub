@@ -1,0 +1,55 @@
+# === OS / IDE ===
+.DS_Store
+.idea/
+.vscode/
+
+# === Python caches and temporary files ===
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.tmp
+*.swp
+
+# === Virtual environments ===
+.venv*/
+.env
+.env.*
+!.env.example
+
+# === Data directory ===
+pkl/
+
+# === Generated data and caches ===
+analysis/
+pool/
+
+out/
+out_dso/
+out_gp/
+out_rl/
+
+# === External projects ===
+
+# === Models and large artifacts ===
+*.pkl
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# Local datasets, model artifacts, and credential material
+/data/
+/datasets/
+/exports/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json

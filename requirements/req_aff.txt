@@ -1,0 +1,28 @@
+# AFF | Python 3.10
+
+# === Core Numerics & ML ===
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.4.2
+joblib==1.3.2
+statsmodels==0.14.4
+
+# === Deep Learning ===
+torch==1.13.0
+
+# === RL Stack (legacy Gym API) ===
+gym==0.25.2
+stable_baselines3==2.0.0
+sb3_contrib==2.0.0
+shimmy==1.1.0
+
+# === Market / Data Platforms ===
+pyqlib==0.9.6
+baostock==0.8.9
+
+# === Visualization & Logging ===
+matplotlib==3.7.1
+tensorboard==2.20.0
+
+# === CLI ===
+fire

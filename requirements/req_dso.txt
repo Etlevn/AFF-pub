@@ -1,0 +1,42 @@
+# DSO | Python 3.9
+
+# === Deep Learning Frameworks ===
+tensorflow==2.15.1
+torch==2.8.0
+
+# === Core Numerics & ML ===
+numpy==1.24.3
+scipy==1.10.1
+pandas==2.0.3
+scikit-learn==1.3.0
+sympy==1.12
+
+# === Build & JIT ===
+cython==3.0.0
+numba==0.60.0
+
+# === CLI ===
+click==8.1.7
+fire==0.7.1
+
+# === Config Parsing ===
+PyYAML==6.0.1
+commentjson==0.9.0
+
+# === Optimization & Parallel ===
+deap==1.4.1
+pathos==0.3.0
+
+# === Visualization & Progress ===
+seaborn==0.12.2
+matplotlib==3.7.2
+tqdm==4.65.0
+progress==1.6
+prettytable==3.8.0
+
+# === Testing ===
+pytest==7.4.0
+
+# === Data Platforms ===
+pyqlib==0.9.7
+baostock==0.8.9
